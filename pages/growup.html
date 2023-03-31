@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/sass/sass.scss">
+
+</head>
+
+<body>
+
+    <section class="sec_header">
+        <div class="container header">
+            <h1>Учет сотрудников в компании Wepro</h1>
+            <h2>Общее число сотрудников: </h2>
+            <h2 class="counter">Премию получат:1</h2>
+        </div>
+    </section>
+
+    <section class="sec_sub_header">
+        <div class="container sub_header">
+            <input type="text" class="search" placeholder="Найти сотрудника" value="" name="search">
+
+            <div class="btns">
+                <a href="/index.html"><button type="button" class="btn all_users ">Все сотрудники</button></a>
+                <a href="/pages/growup.html"><button type="button" class="btn grow_up ">На повышение</button></a>
+                <a href="/pages/majors.html"><button type="button" class="btn major ">З/П больше 1000$</button></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec_list">
+        <div class="container">
+            <ul id="ul">
+
+            </ul>
+    </section>
+
+    <section class="sec_footer">
+        <div class="container footer">
+            <h3>Добавьте нового сотрудника</h3>
+            <form name="footer_content">
+                <input type="text" class="new_user" placeholder="Как его зовут?" name="name" value="">
+                <input type="number" class="new_price" placeholder="З/П в $?" name="salary" value="">
+                <button type="submit" class="btn btn-outline-light">Добавить</button>
+            </form>
+        </div>
+        </div>
+    </section>
+    <script type="module" src="../main.js"></script>
+</body>
+
+</html>

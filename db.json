@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": " Aka",
+      "salary": "440404",
+      "type": true
+    },
+    {
+      "id": 2,
+      "name": " Aka",
+      "salary": "5500",
+      "type": true
+    },
+    {
+      "id": 3,
+      "name": " Aka",
+      "salary": "7500",
+      "type": false
+    },
+    {
+      "id": 4,
+      "name": " Aka",
+      "salary": "4200",
+      "type": true
+    },
+    {
+      "id": 5,
+      "name": " Aka",
+      "salary": "300",
+      "type": false
+    },
+    {
+      "id": 6,
+      "name": " Aka",
+      "salary": "1055",
+      "type": false
+    }
+  ],
+  "majors": [
+    {
+      "id": 5,
+      "name": "aus Aka",
+      "salary": "5000",
+      "type": false
+    }
+  ],
+  "growup": []
+}
